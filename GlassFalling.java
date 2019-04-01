@@ -87,8 +87,8 @@ public class GlassFalling {
 
         // Do not touch the below lines of code, and make sure
         // in your final turned-in copy, these are the only things printed
-        int minTrials1Recur = gf.glassFallingRecur(10, 2);
-        int minTrials1Bottom = gf.glassFallingBottomUp(10, 2);
+        int minTrials1Recur = gf.glassFallingRecur(27, 2);
+        int minTrials1Bottom = gf.glassFallingBottomUp(27, 2);
 
         int minTrials2Memo = gf.glassFallingMemoized(100, 3, memoArr);
         int minTrials2Bottom = gf.glassFallingBottomUp(100, 3);
